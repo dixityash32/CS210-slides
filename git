@@ -1,0 +1,29 @@
+first  create a repository with some name in github.com
+then make a folder with the same name as that of repository for e.g( test )
+then go into test (cd test)
+now tell the computer who u r this is only required for the first time
+COMMAND
+
+git config --global user.name "kmramit"
+git config --global user.email amiitkumar1995@gmail.com
+
+after going into the test folder
+
+COMMAND:     git init
+
+then connect to github
+
+COMMAND :   git remote add origin https://github.com/kmramit/test.git
+
+now for add the file u use the 
+
+COMMAND :  git add  filename with extension( sample.cpp)
+			git add * (for adding all the file)
+			
+now to say which commit is it
+
+COMMAND :  git commit -m "first commit"
+
+now at last to push all of these to repository
+
+COMMAND : git push -u origin master
